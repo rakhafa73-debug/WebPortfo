@@ -1,0 +1,6 @@
+# System / environment files
+.bashrc
+.cache/
+.config/
+.local/
+.npm/
