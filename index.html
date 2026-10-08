@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Rakha - WebPortfo | Digital Portfolio</title>
+  <meta name="description" content="Portfolio Rakha Fauzi Akbar — digital developer dan creative designer yang membangun pengalaman digital modern, responsif, dan presisi." />
+  <meta name="author" content="Rakha Fauzi Akbar" />
+  <meta name="theme-color" content="#0a0a0c" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rakha - WebPortfo | Digital Portfolio" />
+  <meta property="og:description" content="Portfolio Rakha Fauzi Akbar — digital developer dan creative designer yang membangun pengalaman digital modern, responsif, dan presisi." />
+  <meta property="og:image" content="https://i.ibb.co.com/7P1jpfc/1000031040.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.ibb.co.com/7P1jpfc/1000031040.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ======= CUSTOM CURSOR ======= -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ======= BACKGROUND INTERACTION ======= -->
+  <div class="bg-fx" aria-hidden="true">
+    <div class="bg-fx__grid"></div>
+    <div class="bg-fx__noise"></div>
+    <div class="bg-fx__glow bg-fx__glow--1"></div>
+    <div class="bg-fx__glow bg-fx__glow--2"></div>
+    <div class="bg-fx__mouse"></div>
+  </div>
+
+  <!-- ======= NAVBAR ======= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#beranda" class="navbar__brand">
+        Rakha<span class="navbar__brand-dot"> - </span><span>WebPortfo</span>
+      </a>
+
+      <nav class="navbar__menu" id="navMenu" aria-label="Navigasi utama">
+        <ul class="navbar__links">
+          <li><a href="#beranda" class="nav-link is-active"><span class="nav-link__num">01</span>Beranda</a></li>
+          <li><a href="#karya" class="nav-link"><span class="nav-link__num">02</span>Karya</a></li>
+          <li><a href="#layanan" class="nav-link"><span class="nav-link__num">03</span>Layanan</a></li>
+          <li><a href="#studi" class="nav-link"><span class="nav-link__num">04</span>Studi</a></li>
+          <li><a href="#tentang" class="nav-link"><span class="nav-link__num">05</span>Tentang</a></li>
+          <li><a href="#kontak" class="nav-link"><span class="nav-link__num">06</span>Kontak</a></li>
+        </ul>
+        <a class="navbar__cta" href="https://wa.me/62881012462412" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Diskusi
+        </a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="beranda">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">
+            <span class="hero__eyebrow-dot"></span> DIGITAL CREATIVE / WEB DEVELOPER
+          </p>
+
+          <h1 class="hero__title reveal" data-delay="1">
+            Ide berani,<br />
+            dihadirkan dengan<br />
+            <span class="hero__title-accent">presisi tinggi</span>
+          </h1>
+
+          <p class="hero__desc reveal" data-delay="2">
+            Membangun pengalaman digital yang modern, fungsional, dan dirancang
+            dengan perhatian terhadap setiap detail.
+          </p>
+
+          <div class="hero__actions reveal" data-delay="3">
+            <a href="https://wa.me/62881012462412" target="_blank" rel="noopener" class="btn btn--primary">
+              Diskusi Proyek
+              <i class="fa-solid fa-arrow-right btn__arrow" aria-hidden="true"></i>
+            </a>
+            <a href="#karya" class="btn btn--ghost">
+              Lihat Karya
+              <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="hero__meta reveal" data-delay="4">
+            <div class="hero__meta-item">
+              <span class="hero__meta-label">Tersedia untuk</span>
+              <span class="hero__meta-value">Proyek Baru</span>
+            </div>
+            <div class="hero__meta-item">
+              <span class="hero__meta-label">Fokus</span>
+              <span class="hero__meta-value">Web &amp; Produk Digital</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo visual -->
+        <div class="hero__visual">
+          <div class="hero__photo reveal" data-delay="2">
+            <span class="hero__photo-overlay-text" aria-hidden="true">RAKHA</span>
+
+            <div class="hero__photo-frame">
+              <img
+                src="https://i.ibb.co.com/7P1jpfc/1000031040.png"
+                alt="Foto profil Rakha Fauzi Akbar"
+                class="hero__photo-img"
+                width="316" height="424"
+                loading="eager"
+              />
+              <div class="hero__photo-shade"></div>
+            </div>
+
+            <!-- Floating particles -->
+            <span class="particle particle--1" aria-hidden="true"></span>
+            <span class="particle particle--2" aria-hidden="true"></span>
+            <span class="particle particle--3" aria-hidden="true"></span>
+            <span class="particle particle--4" aria-hidden="true"></span>
+
+            <div class="hero__badge">
+              <i class="fa-solid fa-code hero__badge-icon" aria-hidden="true"></i>
+              <div>
+                <strong>Open to work</strong>
+                <span>Freelance &amp; Remote</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= VALUE PROPOSITION ======= -->
+    <section class="value" aria-label="Pendekatan">
+      <div class="container">
+        <p class="value__label reveal">OUR APPROACH</p>
+        <h2 class="value__title reveal" data-delay="1">
+          Kami bermitra dengan tim ambisius untuk meluncurkan
+          <span class="text-outline">produk digital</span>,
+          <span class="text-accent">sistem merek</span>, dan strategi yang
+          menyatukannya.
+        </h2>
+      </div>
+    </section>
+
+    <!-- ======= FEATURED PROJECTS ======= -->
+    <section class="projects" id="karya">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label reveal">SELECTED WORK</p>
+            <h2 class="section-title reveal" data-delay="1">Karya Pilihan</h2>
+          </div>
+          <p class="section-sub reveal" data-delay="2">
+            Beberapa proyek digital yang dirancang dengan fokus pada pengalaman,
+            performa, dan detail.
+          </p>
+        </div>
+
+        <div class="projects__grid">
+
+          <!-- Project 01 -->
+          <article class="project-card reveal">
+            <a class="project-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Detail proyek 01 - Aster Labs">
+              <div class="project-card__media" style="--c1:#3d3d4d;--c2:#0c0c10;--c3:#5b5bd6;">
+                <div class="project-card__chip">Platform / Sistem</div>
+                <span class="project-card__monogram" aria-hidden="true">AL</span>
+                <div class="project-card__shade"></div>
+              </div>
+              <div class="project-card__body">
+                <span class="project-card__num">01</span>
+                <div class="project-card__info">
+                  <h3 class="project-card__title">Aster Labs</h3>
+                  <p class="project-card__cat">Solusi platform dan sistem digital</p>
+                  <p class="project-card__desc">Ekosistem digital terpadu yang dibangun untuk skala dan performa.</p>
+                </div>
+                <span class="project-card__arrow">
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-card reveal">
+            <a class="project-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Detail proyek 02 - Nova Finance">
+              <div class="project-card__media" style="--c1:#1f3d3a;--c2:#0a0c0d;--c3:#2fd4b4;">
+                <div class="project-card__chip">Fintech / UI</div>
+                <span class="project-card__monogram" aria-hidden="true">NF</span>
+                <div class="project-card__shade"></div>
+              </div>
+              <div class="project-card__body">
+                <span class="project-card__num">02</span>
+                <div class="project-card__info">
+                  <h3 class="project-card__title">Nova Finance</h3>
+                  <p class="project-card__cat">Aplikasi dan antarmuka keuangan</p>
+                  <p class="project-card__desc">Antarmuka finansial yang intuitif, cepat, dan terasa presisi.</p>
+                </div>
+                <span class="project-card__arrow">
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-card reveal">
+            <a class="project-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Detail proyek 03 - Hello Studio">
+              <div class="project-card__media" style="--c1:#3a2b4a;--c2:#0c0a10;--c3:#b06cff;">
+                <div class="project-card__chip">Branding / Web</div>
+                <span class="project-card__monogram" aria-hidden="true">HS</span>
+                <div class="project-card__shade"></div>
+              </div>
+              <div class="project-card__body">
+                <span class="project-card__num">03</span>
+                <div class="project-card__info">
+                  <h3 class="project-card__title">Hello Studio</h3>
+                  <p class="project-card__cat">Branding dan situs interaktif</p>
+                  <p class="project-card__desc">Identitas merek dan pengalaman web yang penuh karakter.</p>
+                </div>
+                <span class="project-card__arrow">
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 04 -->
+          <article class="project-card reveal">
+            <a class="project-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Detail proyek 04 - Pulse Health">
+              <div class="project-card__media" style="--c1:#29384a;--c2:#0a0c0f;--c3:#4aa8ff;">
+                <div class="project-card__chip">Healthtech / Product</div>
+                <span class="project-card__monogram" aria-hidden="true">PH</span>
+                <div class="project-card__shade"></div>
+              </div>
+              <div class="project-card__body">
+                <span class="project-card__num">04</span>
+                <div class="project-card__info">
+                  <h3 class="project-card__title">Pulse Health</h3>
+                  <p class="project-card__cat">Antarmuka dan sistem layanan kesehatan</p>
+                  <p class="project-card__desc">Sistem perawatan pasien yang manusiawi dan mudah digunakan.</p>
+                </div>
+                <span class="project-card__arrow">
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CASE STUDY / STUDI ======= -->
+    <section class="study" id="studi">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label reveal">CASE STUDY</p>
+            <h2 class="section-title reveal" data-delay="1">Studi Proyek</h2>
+          </div>
+          <p class="section-sub reveal" data-delay="2">
+            Menyelami satu studi kasus — dari tantangan hingga hasil akhir.
+          </p>
+        </div>
+
+        <article class="case reveal">
+          <div class="case__intro">
+            <span class="case__index">01</span>
+            <div>
+              <h3 class="case__title">Aster Labs</h3>
+              <p class="case__cat">Digital Platform</p>
+            </div>
+            <p class="case__desc">
+              Membangun sistem digital yang mengutamakan performa, skalabilitas,
+              dan pengalaman pengguna.
+            </p>
+          </div>
+
+          <div class="case__body">
+            <div class="case__steps">
+              <div class="case__step">
+                <span class="case__step-num">01</span>
+                <div>
+                  <h4>Challenge</h4>
+                  <p>Platform lama lambat, tidak responsif, dan sulit dikembangkan untuk kebutuhan yang terus tumbuh.</p>
+                </div>
+              </div>
+              <div class="case__step">
+                <span class="case__step-num">02</span>
+                <div>
+                  <h4>Strategy</h4>
+                  <p>Menyusun ulang arsitektur informasi dengan pendekatan modular dan fokus pada user journey.</p>
+                </div>
+              </div>
+              <div class="case__step">
+                <span class="case__step-num">03</span>
+                <div>
+                  <h4>Design</h4>
+                  <p>Merancang sistem desain yang konsisten, elegan, dan mudah diadopsi oleh seluruh tim.</p>
+                </div>
+              </div>
+              <div class="case__step">
+                <span class="case__step-num">04</span>
+                <div>
+                  <h4>Development</h4>
+                  <p>Membangun front-end modern dengan kode bersih, ringan, dan terukur performanya.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Statistik (angka mudah diganti di HTML) -->
+            <div class="case__stats">
+              <div class="stat-item">
+                <span class="stat-item__value">
+                  <span class="stat-num" data-target="42" data-suffix="%">0</span>%
+                </span>
+                <span class="stat-item__label">Performance</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-item__value">
+                  <span class="stat-num" data-target="2" data-decimals="1" data-suffix="x">0</span>x
+                </span>
+                <span class="stat-item__label">Faster</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-item__value">
+                  <span class="stat-num" data-target="5" data-suffix="+">0</span>+
+                </span>
+                <span class="stat-item__label">Projects Delivered</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-item__value">
+                  <span class="stat-num" data-target="98" data-suffix="%">0</span>%
+                </span>
+                <span class="stat-item__label">Satisfaction</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======= SERVICES ======= -->
+    <section class="services" id="layanan">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label reveal">WHAT I DO</p>
+            <h2 class="section-title reveal" data-delay="1">Layanan</h2>
+          </div>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card reveal">
+            <a class="service-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Layanan pengembangan produk digital">
+              <div class="service-card__top">
+                <span class="service-card__num">01</span>
+                <span class="service-card__icon"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+              </div>
+              <h3 class="service-card__title">Pengembangan Produk Digital</h3>
+              <p class="service-card__desc">Pembangunan situs web dan sistem digital performa tinggi.</p>
+              <span class="service-card__arrow"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </a>
+          </article>
+
+          <article class="service-card reveal">
+            <a class="service-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Layanan desain produk">
+              <div class="service-card__top">
+                <span class="service-card__num">02</span>
+                <span class="service-card__icon"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i></span>
+              </div>
+              <h3 class="service-card__title">Desain Produk</h3>
+              <p class="service-card__desc">Perancangan antarmuka UI/UX dan sistem desain.</p>
+              <span class="service-card__arrow"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </a>
+          </article>
+
+          <article class="service-card reveal">
+            <a class="service-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Layanan jaminan kualitas">
+              <div class="service-card__top">
+                <span class="service-card__num">03</span>
+                <span class="service-card__icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span>
+              </div>
+              <h3 class="service-card__title">Jaminan Kualitas / QA</h3>
+              <p class="service-card__desc">Pengujian performa, keandalan kode, dan responsivitas.</p>
+              <span class="service-card__arrow"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </a>
+          </article>
+
+          <article class="service-card reveal">
+            <a class="service-card__link" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+               aria-label="Layanan konsultasi">
+              <div class="service-card__top">
+                <span class="service-card__num">04</span>
+                <span class="service-card__icon"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></span>
+              </div>
+              <h3 class="service-card__title">Konsultasi</h3>
+              <p class="service-card__desc">Strategi produk, arsitektur informasi, dan arahan merek.</p>
+              <span class="service-card__arrow"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section class="about" id="tentang">
+      <div class="container about__inner">
+
+        <div class="about__visual reveal">
+          <div class="about__frame">
+            <img
+              src="https://i.ibb.co.com/7P1jpfc/1000031040.png"
+              alt="Potret Rakha Fauzi Akbar"
+              class="about__img"
+              width="316" height="424"
+              loading="lazy"
+            />
+            <div class="about__frame-shade"></div>
+            <span class="about__frame-text" aria-hidden="true">Rakha</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="section-label reveal">ABOUT ME</p>
+          <h2 class="section-title about__title reveal" data-delay="1">Tentang Rakha</h2>
+
+          <p class="about__text reveal" data-delay="2">
+            Saya adalah <strong>Rakha Fauzi Akbar</strong>, seorang digital creator
+            yang memiliki ketertarikan pada pengembangan website, desain digital,
+            dan pengalaman pengguna.
+          </p>
+
+          <ul class="about__skills reveal" data-delay="3">
+            <li><span class="pill">Front-End Development</span></li>
+            <li><span class="pill">UI/UX Design</span></li>
+            <li><span class="pill">Responsive Web Design</span></li>
+            <li><span class="pill">JavaScript</span></li>
+            <li><span class="pill">Creative Development</span></li>
+            <li><span class="pill">Digital Product</span></li>
+          </ul>
+
+          <a href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+             class="btn btn--primary about__cta reveal" data-delay="4">
+            Bicara dengan Saya
+            <i class="fa-solid fa-arrow-right btn__arrow" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= STATISTICS ======= -->
+    <section class="stats" aria-label="Statistik">
+      <div class="container stats__grid">
+
+        <div class="stats__item reveal">
+          <span class="stats__value">
+            <span class="stat-num" data-target="20" data-suffix="+">0</span>+
+          </span>
+          <span class="stats__label">Projects</span>
+        </div>
+
+        <div class="stats__item reveal">
+          <span class="stats__value">
+            <span class="stat-num" data-target="95" data-suffix="%">0</span>%
+          </span>
+          <span class="stats__label">Client Satisfaction</span>
+        </div>
+
+        <div class="stats__item reveal">
+          <span class="stats__value">
+            <span class="stat-num" data-target="3" data-suffix="+">0</span>+
+          </span>
+          <span class="stats__label">Years Experience</span>
+        </div>
+
+        <div class="stats__item reveal">
+          <span class="stats__value">
+            <span class="stat-num" data-target="100" data-suffix="%">0</span>%
+          </span>
+          <span class="stats__label">Responsive Design</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= CONTACT CTA ======= -->
+    <section class="contact" id="kontak">
+      <div class="container">
+        <div class="contact__cta reveal" id="contactCta">
+          <p class="section-label contact__label">LET'S TALK</p>
+          <h2 class="contact__title">
+            Punya rencana proyek?<br />Mari kita <span class="text-outline">wujudkan.</span>
+          </h2>
+          <p class="contact__desc">
+            Ceritakan ide Anda dan mari mulai membangun sesuatu yang berdampak.
+          </p>
+
+          <a href="https://wa.me/62881012462412" target="_blank" rel="noopener" class="btn btn--primary btn--large contact__btn">
+            Mulai Diskusi
+            <i class="fa-solid fa-arrow-right btn__arrow" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <!-- ======= SOCIAL MEDIA ======= -->
+        <div class="socials">
+          <a class="socials__card reveal" href="https://wa.me/62881012462412" target="_blank" rel="noopener"
+             aria-label="Hubungi melalui WhatsApp">
+            <span class="socials__icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
+            <span class="socials__meta">
+              <span class="socials__name">WhatsApp</span>
+              <span class="socials__handle">0881012462412</span>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square socials__arrow" aria-hidden="true"></i>
+          </a>
+
+          <a class="socials__card reveal" href="https://www.instagram.com/rkhaaa21___?stkn=czU0YnN0MG94a2k0"
+             target="_blank" rel="noopener" aria-label="Kunjungi Instagram">
+            <span class="socials__icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i></span>
+            <span class="socials__meta">
+              <span class="socials__name">Instagram</span>
+              <span class="socials__handle">@rkhaaa21___</span>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square socials__arrow" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#beranda" class="footer__logo">Rakha - WebPortfo</a>
+          <p class="footer__tagline">Digital ideas, built with precision.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Navigasi footer">
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#karya">Karya</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <a href="https://wa.me/62881012462412" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/rkhaaa21___?stkn=czU0YnN0MG94a2k0" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Rakha Fauzi Akbar. All rights reserved.</p>
+        <button class="footer__top-btn" id="backToTop" aria-label="Kembali ke atas">
+          Back to Top
+          <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
